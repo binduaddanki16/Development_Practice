@@ -1,0 +1,38 @@
+h1{
+    border:2px solid black;
+    width:50%;
+}
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: hotpink;
+    margin: 50px;
+    /* border:2px solid black;  or down 2;ines*/
+    box-sizing: border-box;
+    position: relative;
+}
+#inner{
+    height:100px;
+    width: 100px;
+    background-color: aqua;
+    /* border:2px solid black;  or down 2;ines*/
+    margin-left: 30%;
+    margin-top: 36%;
+    box-sizing: border-box;
+    position: absolute; 
+}
+#outer1{
+    height: 400px;
+    width: 400px;
+    background-color: hotpink;
+    border:2px solid black;
+    font-size: 20px; 
+}
+#inner1{
+    height:100px;
+    width: 100px;
+    background-color: aqua;
+    font-size: 2em;
+    margin: 1em;
+    padding: 1em;
+}

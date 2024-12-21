@@ -1,0 +1,37 @@
+*{
+    background-color: black;
+}
+.out{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+}
+.circle{
+    height: 200px;
+    width: 200px; 
+ margin: 1px;
+    background-color: rgb(224, 167, 60);
+    border-radius: 50%;
+}
+.eye{
+    background-color: black;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display:  inline-block;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+.mouth{
+    width: 90px;
+    height: 40px;
+    background-color: brown;
+    border-radius: 0px 0px 50px 50px;
+    position: absolute;
+    top:140px;
+    left: 60px;
+}
+#right{
+    left: 150px;
+}

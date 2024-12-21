@@ -1,0 +1,41 @@
+div{
+    height: 100px;
+    width: 200px;
+    margin: 5px 0px 5px 5px;
+    background-color: #b7c8b5;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+}
+div:nth-of-type(1){
+    margin-top: 50px;
+}
+div:nth-of-type(2n){
+background-color: #A790A5;
+}
+div:nth-of-type(3n){
+    background-color: #875C74;
+}
+#one{
+    transform:rotate(45deg);
+}
+#two{
+    transform: scale(2,0.5);
+}
+#three{
+    transform: translate(100px,-10px);
+}
+#four{
+    transform: skew(10deg);
+}
+#five{
+    transform:rotate(30deg) translate(50px,10px);
+}
+#box{
+    height: 300px ;
+    width: 200px;
+    margin: 0 auto;
+    background-color: #875C74;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px rgb(234, 234, 157);
+}

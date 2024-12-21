@@ -1,0 +1,23 @@
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    animation-name: fontanim;
+    animation-duration:2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction:  alternate;
+}
+@keyframes fontanim{
+from{
+    font-size:20px;
+}
+to{
+    font-size:40px;
+}
+} 
+@keyframes coloranim{
+    from{
+
+    }
+}

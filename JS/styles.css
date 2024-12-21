@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: rgb(167, 219, 53);
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+
+.box{
+    height:100px;
+    width: 200px;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+}
+body{
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+}

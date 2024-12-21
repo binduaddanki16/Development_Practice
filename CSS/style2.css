@@ -1,0 +1,30 @@
+div{
+    height: 200px;
+    width: 500px;
+    background-color: hotpink;
+    border-width: 5px;
+    border-style:solid;
+    border-color: black;
+    border-left: blue;
+    border-left-style: dashed;
+    border-top: 5px dashed blueviolet;
+    border-bottom: 5px dotted palegreen;
+    border-radius: 50px;
+    padding: 50px ;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+h1{
+    color: red;
+    border: 5px solid blueviolet;
+    text-align: center;
+   
+}
+button{
+    border: 2px solid greenyellow;
+    border-radius:10px ;
+    background-color: blanchedalmond;
+    padding: 25px 4px;
+    margin:15px 10px 10px 300px;
+    
+}

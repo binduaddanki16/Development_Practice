@@ -1,0 +1,30 @@
+*{
+    text-align: center;
+}
+#mainTopic{
+    color: blue;
+}
+.Heading{
+    font-family: Georgia;
+}
+.p{
+    color: white;
+    background-color: cornflowerblue;
+}
+button{
+    color: azure;
+    background-color: purple;
+}
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+.p:nth-last-of-type(odd){ 
+    color: yellow;
+}
+h1::first-letter{
+ color: red;
+}
+#yes:checked+label{
+    color: darkcyan;
+}

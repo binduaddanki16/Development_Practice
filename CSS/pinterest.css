@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    border: border-box;
+    font-family:'poppins',sans-serif;
+}
+.navbar{
+    position: fixed; /* Fixes the navbar */
+    top: 0;
+    width: 98%;
+    padding: 16px;
+    background-color: #ffffff;
+    display: flex;
+    font-family: sans-serif ; 
+    justify-content: space-between;
+
+}
+.navbar h1{
+    color: #CC0000;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+.rightnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.leftnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media(min-width:430px) and (max-width:500px){
+    .navbar{
+        position:absolute; /* Fixes the navbar */
+      justify-content: space-evenly;
+    }
+}
+.logo{
+    background-image: url(pinterest.logo.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+    margin-left: 10px;
+  
+}
+.rightanchor{
+    font-size: 16px;
+    color: #111111;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight:400;
+}
+.credential{
+    height: 40px;
+    width: 68.94px;
+    margin-left: 3px;
+    border:none;
+    font-weight: 600;
+}
+#login{
+    background-color: #e60023;
+    color: #ffffff;
+ border-radius:10px;
+    transition-duration: 1s;
+    text-align: center;
+    align-content: center;
+}
+#check{
+    display: none;
+}
+#login:hover{
+    border-radius: 24px;
+}
+#signup{
+    border-radius: 24px;
+}
+.text1{
+    height: 160px;
+   text-align: center;
+   align-content:end;
+   color: #111111;
+   margin: 2px;
+   font-size: 30px;
+}
+
+.text2{
+    height: 90px;
+    text-align: center;
+    color: hotpink;
+    margin: 2px;
+    font-size: 50px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    animation: textanim 2s ease-in 1s infinite forwards;
+}
+@keyframes textanim {
+    from {
+        transform: translateY(35%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+#images{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ overflow: auto;
+height: 450PX;
+}
+.imagebox{
+    background-color: rgb(255, 105, 180,0.5);
+    height: 400px;
+    width: 220px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 3px 5px 10px rgb(255, 105, 180,0.7);
+}
+.imagebox img{
+        width: 100%; 
+        height: 100%;
+}
+.imagebox:hover{
+    box-shadow: 7px 13px 15px rgb(255, 105, 180);
+    transition: 1s;
+}
+#loginlogo{
+    height: 32px;
+    width: 32px;
+    margin-top: 20px;
+    margin: 8px 209.5px 6px 209.5px;
+}
+
+.login{
+    position: absolute;
+    top: 5px;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); 
+    height: 626.400px;
+    width: 464px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+.logbody{
+    background-color:rgba(5, 5, 5, 0.5);
+}
+#Welcome{
+    color: #111111;
+    text-align: center;
+    font-weight: 200 lighter;
+    margin-bottom: 10px;
+}
+.form{
+    width:440px;
+    padding-left: 100px;
+    
+}
+.form label, .form input {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(17,17 ,17);
+}
+::placeholder{
+    padding-left: 6px;
+}
+.form input{
+    height: 40px;
+    width: 270px;
+    border-radius: 16px;
+    border: 2px solid rgb(217, 213, 213);
+    padding: 4px;
+}
+.form input:focus{
+    box-shadow: 0 0 0 5px rgb(105, 176, 234); 
+    border-spacing: 1px;
+    outline: none;
+}
+.form .loginf{
+    background-color: rgb(230, 0, 34,0.9);
+    border: none;
+    height: 40px;
+    margin: 10px 0px 10px 0px;
+    width: 266px;
+    border-radius: 24px;
+    margin-left: 5px;
+    color: #ffffff;
+    font-weight:70px ;
+    font-size: medium;
+    align-content: center;
+    text-align: center;
+    display: block;
+}
+#loginb:hover{
+    background-color: #CC0000;
+}
+#fb{
+    background-color: #0074E8;
+}
+#google,#fb{
+    background-color: white;
+    border: 0.5px solid rgb(209, 207, 207);
+    color: black;
+    display: flex;
+     align-items: center;
+}
+#fb{
+    background-color: #0074E8;
+    color: #ffffff;
+}
+#google img ,#fb img{
+   height: 70%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   padding-right: 20px;
+   padding-left: 4px;
+}
+#fb div{
+    height: 30px;
+    background-color: #ffffff;
+    width:30px;
+    border-radius: 50%;
+    align-items: center;
+    align-content: center;
+    margin-right: 8px;
+    margin-left: 5px;
+}
+.p a{
+    display: inline;
+    text-align: center;
+    align-content: center;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+ a{
+    text-decoration:none;
+    color: #111111;
+}
+p{
+    text-align: center;
+    align-content: center;
+    line-height: 20px;
+     font-size: 0.8em;
+}
+
+hr{
+    width: 130px;
+    margin: 10px auto;
+background-color: rgb(220, 212, 212);
+}
+#confirm .p{
+    line-height: 25px;
+}

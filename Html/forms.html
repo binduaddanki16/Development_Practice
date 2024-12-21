@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <form action="/action">
+      <div>
+        <label for="username">UserName:</label>
+        <input type="text" placeholder="Enter UserName" id="username">
+    </div>
+    <div>
+        <label for="pwd">Password</label>
+        <input type="password" placeholder="Enter password" id="pwd">
+    </div>
+    <div>
+        <label for="phone">PhoneNumber</label>
+        <input type="number" placeholder="Enter PhoneNumber" id="phone">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter email" id="email" name="email ">
+    </div>
+    <div>
+        <label for="time">Choose schedule</label>
+        <input type="time" id="time">
+    </div>
+    <div>
+        <label for="vol"> </label>
+        <input type="range"
+         id="vol" 
+         min="0" max="100" 
+         step="10" 
+         name="volume"
+         value="70">
+    </div>
+    <div>
+        <label for="feedback">Please give your valuable feedback</label>
+        <textarea name="feedback" id="feedback" rows="5" cols="50"></textarea>
+    </div>
+    <input type="submit" value="click me">
+    <button type="submit">Submit</button>
+    <button type="button">simple button</button>
+    <button type="reset">reset</button>
+     </form>
+     <form action="https://www.google.com/search">
+        <input type="text" placeholder="enter search item" name="q">
+        <button>search</button>
+    </form>
+    </body>
+</html>

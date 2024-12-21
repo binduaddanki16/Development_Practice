@@ -1,0 +1,68 @@
+#regform{
+    height: 626.400px;
+    width: 464px;
+    margin: auto;
+    background-color: azure;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+
+}
+#form{
+    width: 440px;
+    padding-left: 100px;
+}
+.form label, .form input {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(17,17 ,17);
+}
+.form input{
+    width: 300px;
+}
+.check {
+    display: flex;
+    align-items: center;
+}
+#regform{
+    height: 626.400px;
+    width: 464px;
+    margin: auto;
+    background-color: azure;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#form{
+    width: 440px;
+    padding-left: 100px;
+}
+.form label, .form input {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+.form input{
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+}
+.check {
+    display: flex;
+    align-items: center;
+}
+.check #tandc{
+    width: 15px;
+    height:15px;
+}

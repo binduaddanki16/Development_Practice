@@ -1,0 +1,55 @@
+.box{
+    height: 740px;
+    width: 280px;
+    border: 2px solid rgb(230, 222, 222);
+    background-color: whitesmoke;
+    margin: auto;
+}
+.box2{
+    margin: 15px;
+    height: 700px;
+    border: 2px solid black;
+}
+.light{
+    height:200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 50%;
+    align-content: center;
+   text-align: center;
+}
+
+#red:hover{
+    background-color: red;
+    color: red;
+}
+#yellow:hover{ 
+    background-color: yellow;
+    color: yellow;
+}
+#green:hover{
+    background-color: green;
+    color: green;
+}
+.name h2{
+    color: cadetblue;
+    display: inline;
+}
+.name span{
+    color: cadetblue;
+    display: block;
+    font-weight: bold;
+    font-size:larger;
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    border: 2px solid black;
+    background-color: greenyellow;
+    display: inline-block;
+}
+#forth{
+    display: none;
+}

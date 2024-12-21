@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day3</title>
+</head>
+<body>
+    <table border="black">
+        <caption><h1>student information</h1></caption>
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>c</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>d</td>
+            <td>pune</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <br>
+    <form action="/action">
+        <h1>Form</h1>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="enter name" id="name" name="name">
+        </div> <br>
+        <div>
+            <label for="sex">Sex</label>
+            <input type="radio" id="male" value="male" name="sex" >
+            <label for="male">Male</label>
+            <input type="radio" id="female" value="Female" name="sex" >
+            <label for="female">female</label>
+        </div>
+        <br>
+        <div>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="S.Korea">South korea</option>
+                <option value="USA">USA</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="msg">Message:</label>
+            <br>
+            <textarea name="msg" id="msg" placeholder="Enter your msg"></textarea>
+        </div>
+        <div>
+            <legend>Subjects</legend>
+            <input type="checkbox" id="c" name="c">
+            <label for="c">C</label>
+            <input type="checkbox" id="java" name="java" checked> 
+            <label for="java">JAVA</label>
+        </div>
+        <br>
+        <button>Submit</button>
+    </form>
+    <form action="/action">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your Name" name="">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Write your email">
+        </div>
+        <br>
+        <div>
+            <label for="rate">Rate us our of 5:</label>
+            <br>
+            <input type="radio" id="1" value="1" name="rate">
+            <label for="1">1</label>
+            <input type="radio" id="2" value="2" name="rate">
+            <label for="2">2</label>
+            <input type="radio" id="3" value="3" name="rate">
+            <label for="3">3</label>
+            <input type="radio" id="4" value="4" name="rate">
+            <label for="4">4</label>
+            <input type="radio" id="5" value="5" name="rate">
+            <label for="5">5</label>
+        </div>
+        <br>
+        <button>Send your message</button>
+    </form>
+</body>
+</html>

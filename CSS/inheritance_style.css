@@ -1,0 +1,18 @@
+div{
+    background-color: yellow;
+}
+form{
+    background-color: hotpink;
+}
+.inheritdiv{
+    background-color: antiquewhite;
+}
+.inheritdiv ul{
+    background-color: aquamarine;
+}
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+}
